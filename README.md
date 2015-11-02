@@ -14,4 +14,4 @@
 7. Call the Uber driver and let them know what's up.
 8. Texts your friend to let them know you're walking to an Uber.
 
-The fun part starts at [index.js#126](/blob/master/index.js#L126)
+The fun part starts at [index.js#126](index.js#L126)

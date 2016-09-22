@@ -272,7 +272,6 @@ app.get('/the-fuck-out-of-here',
       // call the driver with twilio
       var driver_number = util.formatNumber(data.driver.phone_number);
       console.log(driver_number);
-      driver_number = '+15046168294';
       return util.twilioCallDriver(driver_number, req.user, parseFloat(data.eta) * 60.0)
         .then(function() {
           return util.twilioTextFriend(req.user, parseFloat(data.eta) * 60.0);

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="labs.coruscantconsulting.co.uk" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.coruscantconsulting.co.uk">
+      <text>Coruscant Consulting Ltd. Labs</text>
+    </link>
+    <time>2015-09-13T14:19:40Z</time>
+  </metadata>
+  <wpt lat="42.357542" lon="-83.059571">
+    <time>2015-09-13T14:19:35Z</time>
+  </wpt>
+  <wpt lat="42.3567372" lon="-83.061463">
+    <name>198 E Hancock St</name>
+    <desc>198 E Hancock St, Detroit, MI 48201, USA</desc>
+    <time>2015-09-13T14:20:00Z</time>
+  </wpt>
+  <wpt lat="42.352579" lon="-83.0586456">
+    <name>4199 John R St</name>
+    <desc>4199 John R St, Detroit, MI 48201, USA</desc>
+    <time>2015-09-13T14:20:20Z</time>
+  </wpt>
+  <wpt lat="42.351691" lon="-83.0606519">
+    <name>2-28 E Willis St</name>
+    <desc>2-28 E Willis St, Detroit, MI 48201, USA</desc>
+    <time>2015-09-13T14:20:30Z</time>
+  </wpt>
+<!-- rte>
+  <name>200-254 E Hancock St to 2-28 E Willis St</name>
+  <rtept lat="42.3568943" lon="-83.0610302">
+    <name>200-254 E Hancock St</name>
+  </rtept>
+  <rtept lat="42.3569061" lon="-83.0610395">
+    <name>RP001</name>
+  </rtept>
+  <rtept lat="42.3567434" lon="-83.061452">
+    <name>RP002</name>
+  </rtept>
+  <rtept lat="42.3556809" lon="-83.0607468">
+    <name>RP003</name>
+  </rtept>
+  <rtept lat="42.3536037" lon="-83.0593559">
+    <name>RP004</name>
+  </rtept>
+  <rtept lat="42.352582" lon="-83.058647">
+    <name>RP005</name>
+  </rtept>
+  <rtept lat="42.351691" lon="-83.0606519">
+    <name>2-28 E Willis St</name>
+  </rtept>
+</rte> -->
+</gpx>

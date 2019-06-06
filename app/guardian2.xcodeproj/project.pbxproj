@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C900691D1BA5C08C006CFD8F /* gpxmap_converted.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C900691C1BA5C08C006CFD8F /* gpxmap_converted.gpx */; };
+		C908FADA1BA5327D00E69232 /* LoginFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C908FAD91BA5327D00E69232 /* LoginFlowController.swift */; };
+		C908FADD1BA5337000E69232 /* UberLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C908FADC1BA5337000E69232 /* UberLoginViewController.swift */; };
+		C908FAE01BA536B700E69232 /* ContactSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C908FADF1BA536B700E69232 /* ContactSelectionViewController.swift */; };
+		C908FAE21BA53E6200E69232 /* EndingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C908FAE11BA53E6200E69232 /* EndingViewController.swift */; };
+		C908FAE41BA5413500E69232 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C908FAE31BA5413500E69232 /* StartingViewController.swift */; };
+		C93616C51BA5239600922760 /* MapInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93616C41BA5239600922760 /* MapInterfaceController.swift */; };
+		C94CD6A01BA5912A00ADBF0C /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = C94CD69F1BA5912A00ADBF0C /* banner.png */; };
+		C94CD6A31BA5926400ADBF0C /* clear_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C94CD6A21BA5926400ADBF0C /* clear_icon.png */; };
+		C94CD6A51BA5949500ADBF0C /* color_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C94CD6A41BA5949500ADBF0C /* color_icon.png */; };
+		C94CD6A71BA595F700ADBF0C /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94CD6A61BA595F700ADBF0C /* MyButton.swift */; };
+		C96FC6761BA4B239007B0188 /* WKHapticType+AllValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96FC6751BA4B239007B0188 /* WKHapticType+AllValues.swift */; };
+		C9A5CE9B1BA4CD8200A03E16 /* WatchStreamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5CE9A1BA4CD8200A03E16 /* WatchStreamer.swift */; };
+		C9A5CE9D1BA4D46500A03E16 /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5CE9C1BA4D46500A03E16 /* PointOfInterest.swift */; };
+		C9A5CEA71BA5080200A03E16 /* libMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A5CEA41BA507ED00A03E16 /* libMBProgressHUD.a */; };
+		C9A5CEAD1BA50A0D00A03E16 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A5CEAC1BA50A0D00A03E16 /* SnapKit.framework */; };
+		C9A5CEAF1BA50BE400A03E16 /* UIColor+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A5CEAE1BA50BE400A03E16 /* UIColor+Theme.swift */; };
+		C9DEAE061BA8C24500B0C72A /* CLLocationMiddleManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DEAE051BA8C24500B0C72A /* CLLocationMiddleManager.framework */; };
+		C9E2D2A01BA428270049E9F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E2D29F1BA428270049E9F7 /* AppDelegate.swift */; };
+		C9E2D2A21BA428270049E9F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E2D2A11BA428270049E9F7 /* ViewController.swift */; };
+		C9E2D2A71BA428270049E9F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E2D2A61BA428270049E9F7 /* Assets.xcassets */; };
+		C9E2D2AA1BA428270049E9F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E2D2A81BA428270049E9F7 /* LaunchScreen.storyboard */; };
+		C9E2D2B81BA4290B0049E9F7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9E2D2B61BA4290B0049E9F7 /* Interface.storyboard */; };
+		C9E2D2BA1BA4290B0049E9F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E2D2B91BA4290B0049E9F7 /* Assets.xcassets */; };
+		C9E2D2C11BA4290B0049E9F7 /* guardian Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C9E2D2C01BA4290B0049E9F7 /* guardian Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C9E2D2C81BA4290B0049E9F7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E2D2C71BA4290B0049E9F7 /* InterfaceController.swift */; };
+		C9E2D2CA1BA4290B0049E9F7 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E2D2C91BA4290B0049E9F7 /* ExtensionDelegate.swift */; };
+		C9E2D2CC1BA4290B0049E9F7 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E2D2CB1BA4290B0049E9F7 /* NotificationController.swift */; };
+		C9E2D2CE1BA4290B0049E9F7 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E2D2CD1BA4290B0049E9F7 /* GlanceController.swift */; };
+		C9E2D2D01BA4290B0049E9F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E2D2CF1BA4290B0049E9F7 /* Assets.xcassets */; };
+		C9E2D2D41BA4290B0049E9F7 /* guardian.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C9E2D2B41BA4290A0049E9F7 /* guardian.app */; };
+		C9E2D2E01BA4293D0049E9F7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E2D2DF1BA4293D0049E9F7 /* Constants.swift */; };
+		C9E2D2E11BA429450049E9F7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E2D2DF1BA4293D0049E9F7 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9A5CEA31BA507ED00A03E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9A5CE9E1BA507ED00A03E16 /* MBProgressHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D286A7491518C70F00E13FB8;
+			remoteInfo = "MBProgressHUD Static Library";
+		};
+		C9A5CEA51BA507ED00A03E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9A5CE9E1BA507ED00A03E16 /* MBProgressHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D104D7A1ACA36CC00973364;
+			remoteInfo = "MBProgressHUD Framework";
+		};
+		C9A5CEA81BA5081000A03E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9A5CE9E1BA507ED00A03E16 /* MBProgressHUD.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D286A7481518C70F00E13FB8;
+			remoteInfo = "MBProgressHUD Static Library";
+		};
+		C9E2D2C21BA4290B0049E9F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9E2D2941BA428270049E9F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E2D2BF1BA4290B0049E9F7;
+			remoteInfo = "guardian Extension";
+		};
+		C9E2D2D21BA4290B0049E9F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9E2D2941BA428270049E9F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E2D2B31BA4290A0049E9F7;
+			remoteInfo = guardian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9E2D2D81BA4290B0049E9F7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C9E2D2C11BA4290B0049E9F7 /* guardian Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E2D2DC1BA4290B0049E9F7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C9E2D2D41BA4290B0049E9F7 /* guardian.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C900691C1BA5C08C006CFD8F /* gpxmap_converted.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gpxmap_converted.gpx; sourceTree = "<group>"; };
+		C908FAD91BA5327D00E69232 /* LoginFlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFlowController.swift; sourceTree = "<group>"; };
+		C908FADC1BA5337000E69232 /* UberLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UberLoginViewController.swift; sourceTree = "<group>"; };
+		C908FADF1BA536B700E69232 /* ContactSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactSelectionViewController.swift; sourceTree = "<group>"; };
+		C908FAE11BA53E6200E69232 /* EndingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndingViewController.swift; sourceTree = "<group>"; };
+		C908FAE31BA5413500E69232 /* StartingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
+		C93616C41BA5239600922760 /* MapInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapInterfaceController.swift; sourceTree = "<group>"; };
+		C94CD69F1BA5912A00ADBF0C /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
+		C94CD6A21BA5926400ADBF0C /* clear_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear_icon.png; sourceTree = "<group>"; };
+		C94CD6A41BA5949500ADBF0C /* color_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_icon.png; sourceTree = "<group>"; };
+		C94CD6A61BA595F700ADBF0C /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		C96FC6751BA4B239007B0188 /* WKHapticType+AllValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WKHapticType+AllValues.swift"; sourceTree = "<group>"; };
+		C9A5CE9A1BA4CD8200A03E16 /* WatchStreamer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchStreamer.swift; sourceTree = "<group>"; };
+		C9A5CE9C1BA4D46500A03E16 /* PointOfInterest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
+		C9A5CE9E1BA507ED00A03E16 /* MBProgressHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD.xcodeproj; path = MBProgressHUD/MBProgressHUD.xcodeproj; sourceTree = "<group>"; };
+		C9A5CEAA1BA5083400A03E16 /* guardian-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "guardian-Bridging-Header.h"; sourceTree = "<group>"; };
+		C9A5CEAC1BA50A0D00A03E16 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		C9A5CEAE1BA50BE400A03E16 /* UIColor+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Theme.swift"; sourceTree = "<group>"; };
+		C9DEAE051BA8C24500B0C72A /* CLLocationMiddleManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CLLocationMiddleManager.framework; path = Carthage/Build/iOS/CLLocationMiddleManager.framework; sourceTree = "<group>"; };
+		C9E2D29C1BA428270049E9F7 /* guardian2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guardian2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E2D29F1BA428270049E9F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9E2D2A11BA428270049E9F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9E2D2A61BA428270049E9F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9E2D2A91BA428270049E9F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9E2D2AB1BA428270049E9F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E2D2B11BA428D50049E9F7 /* guardian2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = guardian2.entitlements; sourceTree = "<group>"; };
+		C9E2D2B41BA4290A0049E9F7 /* guardian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guardian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E2D2B71BA4290B0049E9F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C9E2D2B91BA4290B0049E9F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9E2D2BB1BA4290B0049E9F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E2D2C01BA4290B0049E9F7 /* guardian Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "guardian Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E2D2C61BA4290B0049E9F7 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C9E2D2C71BA4290B0049E9F7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C9E2D2C91BA4290B0049E9F7 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C9E2D2CB1BA4290B0049E9F7 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C9E2D2CD1BA4290B0049E9F7 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		C9E2D2CF1BA4290B0049E9F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9E2D2D11BA4290B0049E9F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E2D2DD1BA4290F0049E9F7 /* guardian Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "guardian Extension.entitlements"; sourceTree = "<group>"; };
+		C9E2D2DE1BA429170049E9F7 /* guardian.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = guardian.entitlements; sourceTree = "<group>"; };
+		C9E2D2DF1BA4293D0049E9F7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9E2D2991BA428270049E9F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A5CEA71BA5080200A03E16 /* libMBProgressHUD.a in Frameworks */,
+				C9A5CEAD1BA50A0D00A03E16 /* SnapKit.framework in Frameworks */,
+				C9DEAE061BA8C24500B0C72A /* CLLocationMiddleManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E2D2BD1BA4290B0049E9F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C908FADE1BA5337600E69232 /* Login View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C908FAD91BA5327D00E69232 /* LoginFlowController.swift */,
+				C908FAE31BA5413500E69232 /* StartingViewController.swift */,
+				C908FADC1BA5337000E69232 /* UberLoginViewController.swift */,
+				C908FADF1BA536B700E69232 /* ContactSelectionViewController.swift */,
+				C908FAE11BA53E6200E69232 /* EndingViewController.swift */,
+			);
+			name = "Login View Controllers";
+			sourceTree = "<group>";
+		};
+		C9A5CE9F1BA507ED00A03E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9A5CEA41BA507ED00A03E16 /* libMBProgressHUD.a */,
+				C9A5CEA61BA507ED00A03E16 /* MBProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9E2D2931BA428270049E9F7 = {
+			isa = PBXGroup;
+			children = (
+				C900691C1BA5C08C006CFD8F /* gpxmap_converted.gpx */,
+				C9DEAE051BA8C24500B0C72A /* CLLocationMiddleManager.framework */,
+				C9A5CEAC1BA50A0D00A03E16 /* SnapKit.framework */,
+				C9E2D2DF1BA4293D0049E9F7 /* Constants.swift */,
+				C94CD6A21BA5926400ADBF0C /* clear_icon.png */,
+				C94CD6A41BA5949500ADBF0C /* color_icon.png */,
+				C94CD69F1BA5912A00ADBF0C /* banner.png */,
+				C9E2D29E1BA428270049E9F7 /* guardian2 */,
+				C9E2D2B51BA4290B0049E9F7 /* guardian */,
+				C9E2D2C41BA4290B0049E9F7 /* guardian Extension */,
+				C9E2D29D1BA428270049E9F7 /* Products */,
+				C9A5CE9E1BA507ED00A03E16 /* MBProgressHUD.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		C9E2D29D1BA428270049E9F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9E2D29C1BA428270049E9F7 /* guardian2.app */,
+				C9E2D2B41BA4290A0049E9F7 /* guardian.app */,
+				C9E2D2C01BA4290B0049E9F7 /* guardian Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9E2D29E1BA428270049E9F7 /* guardian2 */ = {
+			isa = PBXGroup;
+			children = (
+				C9E2D2B11BA428D50049E9F7 /* guardian2.entitlements */,
+				C9E2D29F1BA428270049E9F7 /* AppDelegate.swift */,
+				C9E2D2A11BA428270049E9F7 /* ViewController.swift */,
+				C9A5CE9A1BA4CD8200A03E16 /* WatchStreamer.swift */,
+				C9A5CE9C1BA4D46500A03E16 /* PointOfInterest.swift */,
+				C908FADE1BA5337600E69232 /* Login View Controllers */,
+				C9E2D2A61BA428270049E9F7 /* Assets.xcassets */,
+				C9E2D2A81BA428270049E9F7 /* LaunchScreen.storyboard */,
+				C9E2D2AB1BA428270049E9F7 /* Info.plist */,
+				C9A5CEAA1BA5083400A03E16 /* guardian-Bridging-Header.h */,
+				C9A5CEAE1BA50BE400A03E16 /* UIColor+Theme.swift */,
+				C94CD6A61BA595F700ADBF0C /* MyButton.swift */,
+			);
+			path = guardian2;
+			sourceTree = "<group>";
+		};
+		C9E2D2B51BA4290B0049E9F7 /* guardian */ = {
+			isa = PBXGroup;
+			children = (
+				C9E2D2DE1BA429170049E9F7 /* guardian.entitlements */,
+				C9E2D2B61BA4290B0049E9F7 /* Interface.storyboard */,
+				C9E2D2B91BA4290B0049E9F7 /* Assets.xcassets */,
+				C9E2D2BB1BA4290B0049E9F7 /* Info.plist */,
+			);
+			path = guardian;
+			sourceTree = "<group>";
+		};
+		C9E2D2C41BA4290B0049E9F7 /* guardian Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C9E2D2DD1BA4290F0049E9F7 /* guardian Extension.entitlements */,
+				C9E2D2C71BA4290B0049E9F7 /* InterfaceController.swift */,
+				C93616C41BA5239600922760 /* MapInterfaceController.swift */,
+				C9E2D2C91BA4290B0049E9F7 /* ExtensionDelegate.swift */,
+				C9E2D2CB1BA4290B0049E9F7 /* NotificationController.swift */,
+				C9E2D2CD1BA4290B0049E9F7 /* GlanceController.swift */,
+				C9E2D2CF1BA4290B0049E9F7 /* Assets.xcassets */,
+				C9E2D2D11BA4290B0049E9F7 /* Info.plist */,
+				C9E2D2C51BA4290B0049E9F7 /* Supporting Files */,
+				C96FC6751BA4B239007B0188 /* WKHapticType+AllValues.swift */,
+			);
+			path = "guardian Extension";
+			sourceTree = "<group>";
+		};
+		C9E2D2C51BA4290B0049E9F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9E2D2C61BA4290B0049E9F7 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9E2D29B1BA428270049E9F7 /* guardian2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E2D2AE1BA428270049E9F7 /* Build configuration list for PBXNativeTarget "guardian2" */;
+			buildPhases = (
+				C9E2D2981BA428270049E9F7 /* Sources */,
+				C9E2D2991BA428270049E9F7 /* Frameworks */,
+				C9E2D29A1BA428270049E9F7 /* Resources */,
+				C9E2D2DC1BA4290B0049E9F7 /* Embed Watch Content */,
+				C9A5CEAB1BA509E600A03E16 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9A5CEA91BA5081000A03E16 /* PBXTargetDependency */,
+				C9E2D2D31BA4290B0049E9F7 /* PBXTargetDependency */,
+			);
+			name = guardian2;
+			productName = guardian2;
+			productReference = C9E2D29C1BA428270049E9F7 /* guardian2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9E2D2B31BA4290A0049E9F7 /* guardian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E2D2D91BA4290B0049E9F7 /* Build configuration list for PBXNativeTarget "guardian" */;
+			buildPhases = (
+				C9E2D2B21BA4290A0049E9F7 /* Resources */,
+				C9E2D2D81BA4290B0049E9F7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9E2D2C31BA4290B0049E9F7 /* PBXTargetDependency */,
+			);
+			name = guardian;
+			productName = guardian;
+			productReference = C9E2D2B41BA4290A0049E9F7 /* guardian.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C9E2D2BF1BA4290B0049E9F7 /* guardian Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E2D2D51BA4290B0049E9F7 /* Build configuration list for PBXNativeTarget "guardian Extension" */;
+			buildPhases = (
+				C9E2D2BC1BA4290B0049E9F7 /* Sources */,
+				C9E2D2BD1BA4290B0049E9F7 /* Frameworks */,
+				C9E2D2BE1BA4290B0049E9F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "guardian Extension";
+			productName = "guardian Extension";
+			productReference = C9E2D2C01BA4290B0049E9F7 /* guardian Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9E2D2941BA428270049E9F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mattc;
+				TargetAttributes = {
+					C9E2D29B1BA428270049E9F7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 8DZG85JJAZ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					C9E2D2B31BA4290A0049E9F7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 8DZG85JJAZ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					C9E2D2BF1BA4290B0049E9F7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 8DZG85JJAZ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C9E2D2971BA428270049E9F7 /* Build configuration list for PBXProject "guardian2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9E2D2931BA428270049E9F7;
+			productRefGroup = C9E2D29D1BA428270049E9F7 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C9A5CE9F1BA507ED00A03E16 /* Products */;
+					ProjectRef = C9A5CE9E1BA507ED00A03E16 /* MBProgressHUD.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C9E2D29B1BA428270049E9F7 /* guardian2 */,
+				C9E2D2B31BA4290A0049E9F7 /* guardian */,
+				C9E2D2BF1BA4290B0049E9F7 /* guardian Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C9A5CEA41BA507ED00A03E16 /* libMBProgressHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMBProgressHUD.a;
+			remoteRef = C9A5CEA31BA507ED00A03E16 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C9A5CEA61BA507ED00A03E16 /* MBProgressHUD.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MBProgressHUD.framework;
+			remoteRef = C9A5CEA51BA507ED00A03E16 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9E2D29A1BA428270049E9F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94CD6A31BA5926400ADBF0C /* clear_icon.png in Resources */,
+				C94CD6A51BA5949500ADBF0C /* color_icon.png in Resources */,
+				C94CD6A01BA5912A00ADBF0C /* banner.png in Resources */,
+				C9E2D2AA1BA428270049E9F7 /* LaunchScreen.storyboard in Resources */,
+				C9E2D2A71BA428270049E9F7 /* Assets.xcassets in Resources */,
+				C900691D1BA5C08C006CFD8F /* gpxmap_converted.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E2D2B21BA4290A0049E9F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E2D2BA1BA4290B0049E9F7 /* Assets.xcassets in Resources */,
+				C9E2D2B81BA4290B0049E9F7 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E2D2BE1BA4290B0049E9F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E2D2D01BA4290B0049E9F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9A5CEAB1BA509E600A03E16 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CLLocationMiddleManager.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9E2D2981BA428270049E9F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A5CE9B1BA4CD8200A03E16 /* WatchStreamer.swift in Sources */,
+				C9E2D2A21BA428270049E9F7 /* ViewController.swift in Sources */,
+				C908FADA1BA5327D00E69232 /* LoginFlowController.swift in Sources */,
+				C9A5CE9D1BA4D46500A03E16 /* PointOfInterest.swift in Sources */,
+				C908FAE41BA5413500E69232 /* StartingViewController.swift in Sources */,
+				C9A5CEAF1BA50BE400A03E16 /* UIColor+Theme.swift in Sources */,
+				C908FAE21BA53E6200E69232 /* EndingViewController.swift in Sources */,
+				C9E2D2A01BA428270049E9F7 /* AppDelegate.swift in Sources */,
+				C908FAE01BA536B700E69232 /* ContactSelectionViewController.swift in Sources */,
+				C908FADD1BA5337000E69232 /* UberLoginViewController.swift in Sources */,
+				C9E2D2E01BA4293D0049E9F7 /* Constants.swift in Sources */,
+				C94CD6A71BA595F700ADBF0C /* MyButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E2D2BC1BA4290B0049E9F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E2D2E11BA429450049E9F7 /* Constants.swift in Sources */,
+				C9E2D2CC1BA4290B0049E9F7 /* NotificationController.swift in Sources */,
+				C9E2D2CA1BA4290B0049E9F7 /* ExtensionDelegate.swift in Sources */,
+				C9E2D2C81BA4290B0049E9F7 /* InterfaceController.swift in Sources */,
+				C93616C51BA5239600922760 /* MapInterfaceController.swift in Sources */,
+				C96FC6761BA4B239007B0188 /* WKHapticType+AllValues.swift in Sources */,
+				C9E2D2CE1BA4290B0049E9F7 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9A5CEA91BA5081000A03E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBProgressHUD Static Library";
+			targetProxy = C9A5CEA81BA5081000A03E16 /* PBXContainerItemProxy */;
+		};
+		C9E2D2C31BA4290B0049E9F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9E2D2BF1BA4290B0049E9F7 /* guardian Extension */;
+			targetProxy = C9E2D2C21BA4290B0049E9F7 /* PBXContainerItemProxy */;
+		};
+		C9E2D2D31BA4290B0049E9F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9E2D2B31BA4290A0049E9F7 /* guardian */;
+			targetProxy = C9E2D2D21BA4290B0049E9F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9E2D2A81BA428270049E9F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9E2D2A91BA428270049E9F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C9E2D2B61BA4290B0049E9F7 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9E2D2B71BA4290B0049E9F7 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9E2D2AC1BA428270049E9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9E2D2AD1BA428270049E9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9E2D2AF1BA428270049E9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = guardian2/guardian2.entitlements;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = guardian2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mat.tc.guardian2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "guardian2/guardian-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		C9E2D2B01BA428270049E9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = guardian2/guardian2.entitlements;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = guardian2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mat.tc.guardian2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "guardian2/guardian-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C9E2D2D61BA4290B0049E9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "guardian Extension/guardian Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "guardian Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mat.tc.guardian2.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		C9E2D2D71BA4290B0049E9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "guardian Extension/guardian Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "guardian Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mat.tc.guardian2.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		C9E2D2DA1BA4290B0049E9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = guardian/guardian.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = guardian_Extension;
+				INFOPLIST_FILE = guardian/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = mat.tc.guardian2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		C9E2D2DB1BA4290B0049E9F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = guardian/guardian.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = guardian_Extension;
+				INFOPLIST_FILE = guardian/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = mat.tc.guardian2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9E2D2971BA428270049E9F7 /* Build configuration list for PBXProject "guardian2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E2D2AC1BA428270049E9F7 /* Debug */,
+				C9E2D2AD1BA428270049E9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E2D2AE1BA428270049E9F7 /* Build configuration list for PBXNativeTarget "guardian2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E2D2AF1BA428270049E9F7 /* Debug */,
+				C9E2D2B01BA428270049E9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E2D2D51BA4290B0049E9F7 /* Build configuration list for PBXNativeTarget "guardian Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E2D2D61BA4290B0049E9F7 /* Debug */,
+				C9E2D2D71BA4290B0049E9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E2D2D91BA4290B0049E9F7 /* Build configuration list for PBXNativeTarget "guardian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E2D2DA1BA4290B0049E9F7 /* Debug */,
+				C9E2D2DB1BA4290B0049E9F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9E2D2941BA428270049E9F7 /* Project object */;
+}
